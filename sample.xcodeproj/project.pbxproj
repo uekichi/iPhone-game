@@ -16,6 +16,8 @@
 		9459B4AF214D499400398E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9459B4AE214D499400398E22 /* Assets.xcassets */; };
 		9459B4B2214D499400398E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9459B4B0214D499400398E22 /* LaunchScreen.storyboard */; };
 		9459B4BD214D499400398E22 /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459B4BC214D499400398E22 /* sampleTests.swift */; };
+		945E2BEE214E034300022B87 /* omikuji.png in Resources */ = {isa = PBXBuildFile; fileRef = 945E2BED214E034200022B87 /* omikuji.png */; };
+		945E2BF0214E034800022B87 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 945E2BEF214E034800022B87 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		9459B4B8214D499400398E22 /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9459B4BC214D499400398E22 /* sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTests.swift; sourceTree = "<group>"; };
 		9459B4BE214D499400398E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945E2BED214E034200022B87 /* omikuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuji.png; sourceTree = "<group>"; };
+		945E2BEF214E034800022B87 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				9459B4A0214D499200398E22 /* sample */,
 				9459B4BB214D499400398E22 /* sampleTests */,
 				9459B49F214D499200398E22 /* Products */,
+				945E2BED214E034200022B87 /* omikuji.png */,
+				945E2BEF214E034800022B87 /* button.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945E2BF0214E034800022B87 /* button.png in Resources */,
+				945E2BEE214E034300022B87 /* omikuji.png in Resources */,
 				9459B4AD214D499200398E22 /* Main.storyboard in Resources */,
 				9459B4A4214D499200398E22 /* GameScene.sks in Resources */,
 				9459B4AF214D499400398E22 /* Assets.xcassets in Resources */,
