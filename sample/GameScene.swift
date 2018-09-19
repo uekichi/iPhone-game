@@ -58,10 +58,15 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
         for touch: AnyObject in touches {
             let location = touch.location(in: self)
             let touchNode = self.atPoint(location)
             if touchNode == btnSprite {
+                let action1 = SKAction.scale(to: 0.9, duration: 0.1)
+                let action2 = SKAction.scale(to: 1.0, duration: 0.1)
+                let actionS = SKAction.sequence([action1,action2])
+                btnSprite.run(actionS)
                 myLabel.text = "???"
                 shakeOmikuji()
                 
